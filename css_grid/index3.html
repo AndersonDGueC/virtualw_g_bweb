@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #page{
+            display: grid;
+            height: 500px;
+            grid-template-areas:"cab cab"
+                                 "men cont"
+                                 "foot foot";  
+        grid-template-rows: 200px 1fr 100px;
+        grid-template-columns: 220px 220px;
+        }
+        header{
+            background-color: red;
+            grid-area: cab;
+        }
+        #menu{
+            background-color: blue;
+            grid-area: men;
+        }
+        #contenido{
+            background-color: coral;
+            grid-area: cont;
+        }
+        footer{
+            background-color: darkblue;
+            grid-area: foot;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <section id="page">
+    <header>header</header>
+    <article id="menu">menu</article>
+    <article id="contenido">content</article>
+    <footer>footer</footer>
+    </section>
+</body>
+</html>

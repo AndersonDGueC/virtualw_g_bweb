@@ -1,0 +1,7 @@
+respuestas
+1. Hay un clase asignada en la etiqua de los enlaces llamada  news_item-link
+donde en css le poner color:green.
+2. se cambia el valor de la propiedad asignada a esa clase en esa etiqueta,
+o se elimina la etiqueta.
+3.se eliminaria la propiedad asiganada en css de ul.news o el list style
+4.
